@@ -1,73 +1,81 @@
-# Welcome to your Lovable project
+# 🎓 CampusConnect
 
-## Project info
+Your personalized gateway to discovering the perfect college 🎯  
+Built for students. Backed by AI. Driven by real data. 💡
 
-**URL**: https://lovable.dev/projects/a387df9b-34ea-4480-94f9-a2e635b7f4b4
+---
 
-## How can I edit this code?
+## 🚀 What is CampusConnect?
 
-There are several ways of editing your application.
+**CampusConnect** is a full-stack web platform (think Shiksha.com meets AI 🤖) that helps students explore and choose the best-fit colleges based on their profiles, interests, and career goals. Whether you're confused by cutoffs, searching for mentors, or looking for genuine content—CampusConnect has your back.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a387df9b-34ea-4480-94f9-a2e635b7f4b4) and start prompting.
+## 🧠 Key Features
 
-Changes made via Lovable will be committed automatically to this repo.
 
-**Use your preferred IDE**
+### 1. 🎯 College Explorer
+> A form-based and filter-rich UI where users input their academic preferences and receive AI-generated college suggestions.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 2. 🧑‍🏫 Mentor Connect
+> A booking interface that allows users to view mentor profiles, check availability, and book live guidance sessions.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 3. 🎥 Career Videos
+> A carousel or grid layout embedded with YouTube API integration to recommend career-related videos based on user interests.
 
-Follow these steps:
+### 4. 🤖 AI Career Coach
+> An interactive chatbot widget integrated throughout the site to offer real-time career guidance and answer questions.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 5. 🏅 XP & Leaderboard System
+> A gamified UI with badges, points tracker, and a leaderboard section to view top users and drive engagement.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 6. 🎓 Scholarships Hub
+> A scrollable, searchable feed showing timely scholarship updates with "Apply" or "Save" buttons for each entry.
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 7. 🧑‍💻 Personalized Dashboard
+> Track saved colleges, booked sessions, video recommendations, and XP — all in one place.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## 🧱 Tech Stack
+
+| Layer        | Technology                     |
+|--------------|---------------------------------|
+| 💻 Frontend   | React.js, TypeScript, Tailwind CSS |
+| 🔌 Backend    | Supabase (Auth, DB, API)        |
+| 🤖 AI/ML      | Gemini API (Prompt-based answers) |
+| 📹 API        | YouTube Data API               |
+| ☁️ Hosting    | Vercel / Netlify (planned)     |
+| 🔧 Versioning | GitHub                         |
+
+---
+
+
+
+## 🛠️ Installation & Setup
+
+Wanna run it locally? Easy peasy! 🍋
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/deep0204/Campus_Connect/edit/main/CampusConnect.git
+cd CampusConnect
+
+# 2. Install frontend dependencies
+cd frontend
+npm install
+
+# 3. Start the frontend
 npm run dev
+
+# 4. (In another terminal) Setup Supabase backend
+# Already connected if using Supabase hosted services
+
+# 5. Set up environment variables
+# .env file example:
+SUPABASE_URL=your_url
+SUPABASE_ANON_KEY=your_key
+GEMINI_API_KEY=your_key
+YOUTUBE_API_KEY=your_key
 ```
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a387df9b-34ea-4480-94f9-a2e635b7f4b4) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
